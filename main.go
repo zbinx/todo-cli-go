@@ -122,7 +122,7 @@ func markTaskAsDone() {
 
     taskID, err := strconv.Atoi(os.Args[2])
     if err != nil {
-        fmt.Println("Invalid task ID. Pleaes enter a valid number")
+        fmt.Println("Invalid task ID. Please enter a valid number")
         return
     }
 
